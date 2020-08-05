@@ -1,22 +1,60 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace EFCore.WebAPI.Migrations
+namespace EFCore.Repository.Migrations
 {
-    public partial class heroiBatalha_idSecreta : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_herois_batalhas_batalhaId",
-                table: "herois");
+            migrationBuilder.CreateTable(
+                name: "batalhas",
+                columns: table => new
+                {
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nome = table.Column<string>(nullable: true),
+                    descricao = table.Column<string>(nullable: true),
+                    dtInicio = table.Column<DateTime>(nullable: false),
+                    dtFim = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_batalhas", x => x.id);
+                });
 
-            migrationBuilder.DropIndex(
-                name: "IX_herois_batalhaId",
-                table: "herois");
+            migrationBuilder.CreateTable(
+                name: "herois",
+                columns: table => new
+                {
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nome = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_herois", x => x.id);
+                });
 
-            migrationBuilder.DropColumn(
-                name: "batalhaId",
-                table: "herois");
+            migrationBuilder.CreateTable(
+                name: "armas",
+                columns: table => new
+                {
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nome = table.Column<string>(nullable: true),
+                    heroiId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_armas", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_armas_herois_heroiId",
+                        column: x => x.heroiId,
+                        principalTable: "herois",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                });
 
             migrationBuilder.CreateTable(
                 name: "HeroisBatalhas",
@@ -63,6 +101,11 @@ namespace EFCore.WebAPI.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_armas_heroiId",
+                table: "armas",
+                column: "heroiId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_HeroisBatalhas_heroiId",
                 table: "HeroisBatalhas",
                 column: "heroiId");
@@ -77,30 +120,19 @@ namespace EFCore.WebAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "armas");
+
+            migrationBuilder.DropTable(
                 name: "HeroisBatalhas");
 
             migrationBuilder.DropTable(
                 name: "IdentidadesSecretas");
 
-            migrationBuilder.AddColumn<int>(
-                name: "batalhaId",
-                table: "herois",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+            migrationBuilder.DropTable(
+                name: "batalhas");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_herois_batalhaId",
-                table: "herois",
-                column: "batalhaId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_herois_batalhas_batalhaId",
-                table: "herois",
-                column: "batalhaId",
-                principalTable: "batalhas",
-                principalColumn: "id",
-                onDelete: ReferentialAction.Cascade);
+            migrationBuilder.DropTable(
+                name: "herois");
         }
     }
 }

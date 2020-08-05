@@ -2,3 +2,11 @@ C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\bin\Debug\netstan
 C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\obj\Debug\netstandard2.0\EFCore.Repository.csprojAssemblyReference.cache
 C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\obj\Debug\netstandard2.0\EFCore.Repository.AssemblyInfoInputs.cache
 C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\obj\Debug\netstandard2.0\EFCore.Repository.AssemblyInfo.cs
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\bin\Debug\netstandard2.0\EFCore.Repository.deps.json
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\bin\Debug\netstandard2.0\EFCore.Repository.dll
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\bin\Debug\netstandard2.0\EFCore.Repository.pdb
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\bin\Debug\netstandard2.0\EFCore.Domain.pdb
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\obj\Debug\netstandard2.0\EFCore.Repository.csproj.CoreCompileInputs.cache
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\obj\Debug\netstandard2.0\EFCore.Repository.csproj.CopyComplete
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\obj\Debug\netstandard2.0\EFCore.Repository.dll
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Repository\obj\Debug\netstandard2.0\EFCore.Repository.pdb

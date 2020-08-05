@@ -1,0 +1,8 @@
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\bin\Debug\netstandard2.0\EFCore.Domain.deps.json
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\bin\Debug\netstandard2.0\EFCore.Domain.dll
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\bin\Debug\netstandard2.0\EFCore.Domain.pdb
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\obj\Debug\netstandard2.0\EFCore.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\obj\Debug\netstandard2.0\EFCore.Domain.AssemblyInfo.cs
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\obj\Debug\netstandard2.0\EFCore.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\obj\Debug\netstandard2.0\EFCore.Domain.dll
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.Domain\obj\Debug\netstandard2.0\EFCore.Domain.pdb

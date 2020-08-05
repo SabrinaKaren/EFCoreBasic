@@ -106,3 +106,7 @@ C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\obj\Debug\netcoreapp3
 C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.dll
 C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.pdb
 C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.genruntimeconfig.cache
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\bin\Debug\netcoreapp3.1\EFCore.Domain.dll
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\bin\Debug\netcoreapp3.1\EFCore.Repository.dll
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\bin\Debug\netcoreapp3.1\EFCore.Domain.pdb
+C:\Projetos\Pessoal\Asp.net_Core\EFCoreBasic\EFCore.WebAPI\bin\Debug\netcoreapp3.1\EFCore.Repository.pdb
