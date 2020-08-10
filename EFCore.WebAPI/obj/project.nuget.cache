@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o4FDYvEOusoO3eVu3oAMItoM2zOg6QmmHF78uNjvnFuHvPvSBLaiwTE9ZV4AMmuN/tICL4lU75rrjIlvihQvDg==",
+  "dgSpecHash": "3/vRet4gWo2tcB+PhsCaCMHQDYLn8i+Ewx1Gq+F52KefPR2KW/AF2lhGotsAWioCMWpNHP/95j0K7/1e75NkzA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Pessoal\\Asp.net_Core\\EFCoreBasic\\EFCore.WebAPI\\EFCore.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,6 @@
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.6\\microsoft.entityframeworkcore.design.3.1.6.nupkg.sha512",
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.6\\microsoft.entityframeworkcore.relational.3.1.6.nupkg.sha512",
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.6\\microsoft.entityframeworkcore.sqlserver.3.1.6.nupkg.sha512",
-    "C:\\Users\\sabri\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.6\\microsoft.entityframeworkcore.tools.3.1.6.nupkg.sha512",
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.6\\microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.6\\microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
     "C:\\Users\\sabri\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
